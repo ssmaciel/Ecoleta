@@ -22,6 +22,7 @@ interface Item {
 interface Point {
     name: string;
     imagem: string;
+    imagem_url: string;
     email: string;
     whatapp: string;
     city: string;
@@ -69,7 +70,7 @@ const Detail = () => {
                 </TouchableOpacity>
                 <Image
                     style={styles.pointImage}
-                    source={{ uri: data.point.imagem }}
+                    source={{ uri: data.point.imagem_url }}
                 />
                 <Text style={styles.pointName}>{data.point.name}</Text>
                 <Text style={styles.pointItems}>

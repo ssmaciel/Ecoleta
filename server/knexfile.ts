@@ -1,7 +1,7 @@
 import path from 'path'
 
 module.exports = {
-  client: 'sqlite3',
+  client: 'mssql',
   connection: {
     filename: path.resolve(__dirname, 'src', 'database', 'database.sqlite')
   },
