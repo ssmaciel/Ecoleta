@@ -239,30 +239,6 @@ const CreatePoint = () => {
               </li>
             )
             )}
-            <li>
-              <img src="http://localhost:3333/uploads/oleo.svg" alt="Teste" />
-              <span>Óleo de Cozinha</span>
-            </li>
-            <li className="selected">
-              <img src="http://localhost:3333/uploads/oleo.svg" alt="Teste" />
-              <span>Óleo de Cozinha</span>
-            </li>
-            <li>
-              <img src="http://localhost:3333/uploads/oleo.svg" alt="Teste" />
-              <span>Óleo de Cozinha</span>
-            </li>
-            <li>
-              <img src="http://localhost:3333/uploads/oleo.svg" alt="Teste" />
-              <span>Óleo de Cozinha</span>
-            </li>
-            <li>
-              <img src="http://localhost:3333/uploads/oleo.svg" alt="Teste" />
-              <span>Óleo de Cozinha</span>
-            </li>
-            <li>
-              <img src="http://localhost:3333/uploads/oleo.svg" alt="Teste" />
-              <span>Óleo de Cozinha</span>
-            </li>
           </ul>
         </fieldset>
         <button type="submit">Cadastrar ponto de coleta</button>
